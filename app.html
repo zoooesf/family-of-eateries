@@ -1,0 +1,602 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/wme2znd.css">
+    <title>Project 02 Framework</title>
+
+    <!-- link to css files -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- link to js files -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+</head>
+
+<body>
+
+    <main id="menu">
+        <img src="img/icon3.svg" alt="CTC Eateries Logo" />
+        <!-- <header>CTC Eateries</header> -->
+        <div id="backToLanding" class="menuBtn"><span>Select a New Restaurant</span></div>
+        <div id="contact" class="menuBtn"><span>Contact Family of Eateries</span></div>
+        <div id="about" class="menuBtn"><span>About Family of Eateries</span></div>
+    </main>
+    <main id="contactPage" class="mainMenu">
+        <header class="reveal">
+            <img class="hamburger1" data-click-state="1" src="img/burger.png" alt="Menu" />
+        </header>
+        <img id="contactLogo" src="img/icon3.svg" alt="">
+        <h1 class="reveal">Contact Us</h1>
+        <table class="reveal">
+            <tr>
+                <th>Restaurant</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>Ceviche</td>
+                <td>905-903-3452</td>
+                <td>45 West Main, Whitby</td>
+            </tr>
+            <tr>
+                <td>Tavola Cucina</td>
+                <td>905-823-4415</td>
+                <td>645 Shady Oak Drive, Ajax</td>
+            </tr>
+            <tr>
+                <td>Crispy's</td>
+                <td>905-820-6929</td>
+                <td>5738 Brock Rd, Pickering</td>
+            </tr>
+        </table>
+        <footer class="reveal"></footer>
+    </main>
+    <main id="aboutPage" class="mainMenu">
+        <header class="reveal">
+            <img class="hamburger1" data-click-state="1" src="img/burger.png" alt="Menu" />
+        </header>
+        <img id="aboutLogo" src="img/icon3.svg" alt="">
+        <h1>CTC Eateries</h1>
+        <p>CTC Eateries was founded in 2003 with a goal to provide the best food at any price point. <br> We are
+            passionate about providing an environment in which out chefs can really shine, and our customers can enjoy
+            quality time with their loved ones.</p>
+        <footer class="reveal"></footer>
+    </main>
+    <!--Splash Page-->
+    <main id="splash">
+        <img src="img/icon.svg" alt="my eateries" class="reveal">
+    </main>
+    <!-- Landing Page -->
+    <main id="landing">
+        <header>Select a Restaurant</header>
+        <img src="img/ceviche_logo.svg" alt="Ceviche Logo" id="cevicheLogo">
+        <img src="img/tavola_logo.svg" alt="Tavola Cucina Logo" id="tavolaLogo">
+        <img src="img/crispy_logo.svg" alt="Crispys Logo" id="crispyLogo">
+        <footer></footer>
+    </main>
+
+    <!-- Civiche -->
+    <main class="rest" id="rest1">
+        <!-- header -->
+        <header>
+            <img class="hamburger" data-click-state="1" src="img/burger.png" alt="Menu" />
+        </header>
+        <!--Ceviche home -->
+        <section class="home">
+            <div class="sectionContainer">
+                <div><img src="img/ceviche_logoE.svg" alt="Ceviche Logo" class="revealLogo logo"></div>
+                <div class="reveal" id="cevicheBio">
+                    <img src="img/cevI.jpg" alt="" srcset="">
+                    <p>
+                        Restaurante Ceviche opened its doors in January 2006, and in 2010 won the second star in the
+                        Michelin Guide.Ceviche is much more than chef Muñoz Izquierdo’s gastronomic vision for
+                        Barcelona. It is a spiritual project withthe very best team of professionals at its forefront
+                        that strives to delight its diners with every aroma and flavour.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--Ceviche Menu -->
+        <section class="cevicheBody menu rest1Body">
+            <div id="cevicheMenu">
+                <div id="rest1Menu" class="reveal">
+                    <h1>Menu</h1>
+                </div>
+                <h2 class="reveal">Starters</h2>
+                <div class="reveal">
+                    <h3>MESCLUN SALAD $15</h3>
+                    <p>Market Herbs and Spring Vegetables; Truffle Vinaigrette</p>
+                    <h3>CRISPY BABY ARTICHOKES $18</h3>
+                    <p>Shaved Parmesan; Baby Arugula; Parsley and Lemon</p>
+                    <h3>DAY BOAT SCALLOPS $25</h3>
+                    <p>English Pea; Fava Beans; Sesame; Bacon and Preserved Lemon</p>
+                </div>
+                <img src="img/cevicheBreak.png" alt="Line and dot graphic" class="menuImage reveal">
+                <h2 class="reveal">Mains</h2>
+                <div class="reveal">
+                    <h3>HAWAIIAN WALU-JAPANESE WAGYU $36</h3>
+                    <p>Grilled Walu and Seared Wagyu; Roasted Squash Roll; Spiced
+                        Red Wine Sauce</p>
+                    <h3>FILET MIGNON $39</h3>
+                    <p>Pan Roasted Filet Mignon; Oxtail Ravioli, Natural Jus</p>
+                    <h3>CURRY $32</h3>
+                    <p>Cauliflower Couscous, Romanesco, Okra, Seasonal
+                        Vegetables, Madras Curry Stew</p>
+                </div>
+                <img src="img/cevicheBreak.png" alt="Line and dot graphic" class="menuImage reveal">
+                <h2 class="reveal">Desserts</h2>
+                <div class="reveal">
+                    <h3>BABA AU RHUM $15</h3>
+                    <p>Whipped Caramelized Honey, Tahitian Vanilla Ice Cream</p>
+                    <h3>"S'MORE" $13</h3>
+                    <p>Warm Chocolate Fondant, Smoked Chocolate, Peruvian
+                        Chocolate Ice Cream</p>
+                    <h3>COFFEE $15</h3>
+                    <p>Devil’s Food Ganache “Doughnut,” Mocha Pot de Crème</p>
+                </div>
+            </div>
+        </section>
+        <!--Ceviche Specials -->
+        <section class="specials rest1Body" id="cevicheSpecials">
+            <div id="rest1Specials" class="reveal">
+                <h1>Nightly Specials</h1>
+            </div>
+            <div id="cevicheSpecial1" class="reveal">
+                <div>
+                    <h2>CAVATELLI & BRAISED DUCK RAGU $23</h2>
+                    <p>Fava Beans and Fresh Ricotta</p>
+                </div>
+            </div>
+
+            <div id="cevicheSpecial2" class="reveal">
+                <div>
+                    <h2>SPICED DUCK BREAST $37</h2>
+                    <p>Mole Poblano; Rhubarb Confit; Braised Red Endive;
+                        Spiced Honey and Duck Jus</p>
+                </div>
+            </div>
+            <div id="cevicheSpecial3" class="reveal">
+                <div>
+                    <h2>APPLE TART TATIN $17</h2>
+                    <p>Creme Fraiche Cream and Lemon
+                        Thyme Anglaise</p>
+                </div>
+            </div>
+        </section>
+        <!--Ceviche Reservations -->
+        <section class="reservations rest1Body" id="cevicheReservations">
+            <div class="sectionBanner" id="rest1Reservations">
+                <h1>Reservations</h1>
+            </div>
+            <div class="sectionContainer">
+                <form class="rest1form reveal">
+                    <!-- the for and name might have to be the same TBD -->
+                    <p>
+                        <label for="name">Name<span>*</span></label>
+                        <input type="text" id="name1" name="name" placeholder="First and Last Name" />
+                    </p>
+                    <p>
+                        <label for="guests">Number of Guests <span>*</span></label>
+                        <select name="guests" id="guests1">
+                            <option>Select a number of guests...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10+">10+</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="date">Date<span>*</span></label>
+                        <input type="date" id="date1" name="date" placeholder="yyyy-mm-dd" />
+                    </p>
+                    <p>
+                        <label for="time">Time <span>*</span></label>
+                        <select name="time" id="time1">
+                            <option>Select a time...</option>
+                            <option value="6:00 pm">6:00 pm</option>
+                            <option value="6:30 pm">6:30 pm</option>
+                            <option value="7:00 pm">7:00 pm</option>
+                            <option value="7:30 pm">7:30 pm</option>
+                            <option value="8:00 pm">8:00 pm</option>
+                            <option value="8:30 pm">8:30 pm</option>
+                            <option value="9:00 pm">9:00 pm</option>
+                            <option value="9:30 pm">9:30 pm</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="phone">Phone<span>*</span></label>
+                        <input type="text" id="phone1" name="phone" placeholder="(123) 456-7890" />
+                    </p>
+                    <p>
+                        <label for="requests">Special Requests</label>
+                        <textarea name="requests" id="requests1" rows="4"></textarea>
+                    </p>
+                    <p class="reveal">
+                        <button class="formSubmit" id="rest1Submit" data-target=".modal" type="reset">Submit</button>
+                    </p>
+                    <div id="myModal1" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Thank you for your reservation</p>
+                        </div>
+
+                    </div>
+            </div>
+        </section>
+        <!--Ceviche footer -->
+        <footer>
+            <div class="homeIcon icon" data-section=".home">
+                <img src="img/home.svg" alt="Home" />
+            </div>
+            <div class="menuIcon icon" data-section=".menu">
+                <img src="img/menu.svg" alt="Menu" />
+            </div>
+            <div class="specialsIcon icon" data-section=".specials">
+                <img src="img/specials.svg" alt="Specials" />
+            </div>
+            <div class="reservationsIcon icon" data-section=".reservations">
+                <img src="img/calendar.svg" alt="Reservations" />
+            </div>
+        </footer>
+    </main>
+
+    <!-- Tavola -->
+    <main class="rest" id="rest2">
+        <!-- Tavola header -->
+        <header>
+            <img class="hamburger" data-click-state="1" src="img/burger.png" alt="Menu" />
+            <!-- <h1>Ceviche</h1> -->
+        </header>
+        <!--Tavola home -->
+        <section class="home">
+            <div class="sectionContainer">
+                <div class="sectionContainer">
+                    <div><img src="img/tavola_logo.svg" alt="Ceviche Logo" class="revealLogo logo"></div>
+                    <div class="menuButton reveal" id="tavolaBio" data-section=".menu">
+                        <img src="img/tavolaI.jpg" alt="" srcset="">
+                        <p>Tavola is a farm to table dining experience with the ingredients coming from the restaurants
+                            own farm. Chef Skwanski travels regularly to Italy with members of his kitchen and
+                            front-of-house teams to meet with Italian artisanal cheese and cured meat producers, olive
+                            oil and balsamic vinegar producers, and internationally acclaimed winemakers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tavola Menu -->
+        <section class="menu rest2Body" id="tavolaMenu">
+            <div id="rest2Menu" class="reveal">
+                <h1>Menu</h1>
+            </div>
+            <h2 class="reveal">Starters</h2>
+            <div class="reveal">
+                <h3>Summer Point Oysters 8</h3>
+                <p>Tomato Horseradish Mignoette / Lemon-Basil Aoli</p>
+                <h3>Polenta Chips 7</h3>
+                <p>Rosemary / Bella Lodi</p>
+                <h3>Lamb Sausage 12</h3>
+                <p>Peach Mostarda / Mortadella / Hubbard Squash</p>
+            </div>
+            <img src="img/tavolaBreak.png" alt="Sprig of Rosemary" class="menuImage reveal">
+            <h2 class="reveal">Mains</h2>
+            <div class="reveal">
+                <h3>Carbonara 18</h3>
+                <p>Fresh Cavatelli / Guanicale / Pecorino / Egg Yolk</p>
+                <h3>Coniglio 19</h3>
+                <p>Rabbit Ragu / Porcini / Polenta / Poached Egg</p>
+                <h3>Margherita Pizza 16</h3>
+                <p>Preserved Tomato / Fior di Latte / Basil</p>
+            </div>
+            <img src="img/tavolaBreak.png" alt="Sprig of Rosemary" class="menuImage reveal">
+            <h2 class="reveal">Desserts</h2>
+            <div class="reveal">
+                <h3>Affogato 10</h3>
+                <p>Vanilla Bean Gelato / Shot of Hot Espresso /
+                    Crumbled Biscotti</p>
+                <h3>Tiramisu 9</h3>
+                <h3>Lavender & Honey Creme Brulee 11</h3>
+            </div>
+        </section>
+        <!-- Tavola Specials -->
+        <section class="specials rest2Body" id="tavolaSpecials">
+            <div id="rest2Specials" class="reveal">
+                <h1>Nightly Specials</h1>
+            </div>
+            <div id="tavolaSpecial1" class="reveal">
+                <div>
+                    <h2>Burrata 17</h2>
+                    <p>Pesto Stuffed Mozzarella / Gremolata /Alici</p>
+                </div>
+            </div>
+            <div id="tavolaSpecial2" class="reveal">
+                <div>
+                    <h2>Arance 16</h2>
+                    <p>Blood Orange / Agrodolce Olives / Tropea Onions</p>
+                </div>
+            </div>
+            <div id="tavolaSpecial3" class="reveal">
+                <div>
+                    <h2>Zabaglione 9</h2>
+                    <p>Grapefruit / Mixed Berries / Sweet Wine </p>
+                </div>
+            </div>
+        </section>
+        <!-- Tavola Reservations -->
+        <section class="reservations rest2Body" id="tavolaReservations">
+            <div class="sectionBanner" id="rest2Reservations">
+                <h1>Reservations</h1>
+            </div>
+            <div class="sectionContainer">
+                <form class="rest1form reveal">
+                    <!-- the for and name might have to be the same TBD -->
+                    <p>
+                        <label for="name">Name<span>*</span></label>
+                        <input type="text" id="name" name="name" placeholder="First and Last Name" />
+                    </p>
+                    <p>
+                        <label for="guests">Number of Guests <span>*</span></label>
+                        <select name="guests" id="guests">
+                            <option>Select a number of guests...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10+">10+</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="date">Date<span>*</span></label>
+                        <input type="date" id="date" name="date" placeholder="yyyy-mm-dd" />
+                    </p>
+                    <p>
+                        <label for="time">Time <span>*</span></label>
+                        <select name="time" id="time">
+                            <option>Select a time...</option>
+                            <option value="6:00 pm">6:00 pm</option>
+                            <option value="6:30 pm">6:30 pm</option>
+                            <option value="7:00 pm">7:00 pm</option>
+                            <option value="7:30 pm">7:30 pm</option>
+                            <option value="8:00 pm">8:00 pm</option>
+                            <option value="8:30 pm">8:30 pm</option>
+                            <option value="9:00 pm">9:00 pm</option>
+                            <option value="9:30 pm">9:30 pm</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="phone">Phone<span>*</span></label>
+                        <input type="text" id="phone" name="phone" placeholder="(123) 456-7890" />
+                    </p>
+                    <p>
+                        <label for="requests">Special Requests</label>
+                        <textarea name="requests" id="requests" rows="4"></textarea>
+                    </p>
+                    <p class="reveal">
+                        <button class="formSubmit" id="rest2Submit">Submit</button>
+                    </p>
+                    <div id="myModal2" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Thank you for your reservation</p>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--Tavola footer -->
+        <footer>
+            <div class="homeIcon icon" data-section=".home">
+                <img src="img/home.svg" alt="Home" />
+            </div>
+            <div class="menuIcon icon" data-section=".menu">
+                <img src="img/menu.svg" alt="Menu" />
+            </div>
+            <div class="specialsIcon icon" data-section=".specials">
+                <img src="img/specials.svg" alt="Specials" />
+            </div>
+            <div class="reservationsIcon icon" data-section=".reservations">
+                <img src="img/calendar.svg" alt="Reservations" />
+            </div>
+        </footer>
+    </main>
+
+    <!-- Crispy -->
+    <main class="rest" id="rest3">
+        <!--Crispy header -->
+        <header>
+            <img class="hamburger" data-click-state="1" src="img/burger.png" alt="Menu" />
+        </header>
+        <!-- Crispy home -->
+        <section class="home">
+            <div class="sectionContainer">
+                <div class="sectionContainer">
+                    <div><img src="img/crispy_logo.svg" alt="Ceviche Logo" class="revealLogo logo"></div>
+                    <div class="menuButton reveal" id="crispyBio" data-section=".menu">
+                        <img src="img/crispy.jpg" alt="">
+                        <p>
+                            We have a long history of proudly serving great tasting burgers and traditional diner fare.
+                            Much has changed over fifty years, however our recipe remains true and delicious as ever. Our
+                            grill masters charbroil each burger to perfection on an open-flame grill.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Crispy Menu  -->
+        <section class="menu rest3Body" id="crispyMenu">
+            <h1 class="reveal">Menu</h1>
+            <h3 class="reveal" id="meal">Make it a meal and add a side
+                and drink to your hand-held main</h3>
+            <div class="reveal">
+                <h2>Hand-Held&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp;&nbsp;Meal&nbsp; Solo</h2>
+                <p>Charbroiled Burger &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;$12&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;$10</p>
+                <p>Grilled Hot Dog &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;$8 &nbsp;&nbsp;&nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp;&nbsp;$6</p>
+                <p>Veggie Burger &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;$11
+                    &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; $9</p>
+                <p>Crispy Chicken Sandwich &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;$10&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;$8</p>
+            </div>
+            <img src="img/crispyBreak.png" alt="Three hamburger graphics" class="menuImage reveal">
+            <div class="reveal">
+                <h2>Sides</h2>
+                <p>Deep Fried Pickles n’ Onion Rings &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$4</p>
+                <p>Famous Fries &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;$2</p>
+                <p>Onion Rings &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                    &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;$3</p>
+                <p>Coleslaw &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;$2</p>
+                <p>Poutine &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;$3</p>
+            </div>
+            <img src="img/crispyBreak2.png" alt="Three milkshake graphics" class="menuImage reveal">
+            <div class="reveal">
+                <h2>Drinks</h2>
+                <h3>Soda</h3>
+                <p>Coke, Sprite, Root Beer, Cream Soda</p>
+                <h3>Milk Shake</h3>
+                <p>Vanilla, Chocolate, Strawberry</p>
+            </div>
+        </section>
+        <!-- Crispy Specials -->
+        <section class="specials rest3Body" id="crispySpecials">
+            <div id="rest3Specials" class="reveal">
+                <h1>Nightly Specials</h1>
+            </div>
+            <div id="crispySpecial1" class="reveal">
+                <div>
+                    <h2>Philly Cheese Steak $15</h2>
+                    <p>Sauteed peppers and Spanish onions, smothered with melted mozzarella and served on a lightly
+                        toasted ciabatta bun</p>
+                </div>
+            </div>
+            <div id="crispySpecial2" class="reveal">
+                <div>
+                    <h2>Canadian Bacon Melt $14</h2>
+                    <p>Grilled Texas Toast loaded with melted cheddar cheese, premium bacon and grilled tomatoes.</p>
+                </div>
+            </div>
+            <div id="crispySpecial3" class="reveal">
+                <div>
+                    <h2>Monte Cristo $15</h2>
+                    <p>Grilled French toast stuffed with shaved ham and mozzarella cheese.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Crispy Reservation -->
+        <section class="reservations rest3Body" id="crispyReservations">
+            <div class="sectionBanner" id="rest3Reservations">
+                <h1>Reservations</h1>
+            </div>
+            <div class="sectionContainer">
+                <form class="reveal rest1form">
+                    <!-- the for and name might have to be the same TBD -->
+                    <p>
+                        <label for="name">Name<span>*</span></label>
+                        <input type="text" id="name" name="name" placeholder="First and Last Name" />
+                    </p>
+                    <p>
+                        <label for="guests">Number of Guests <span>*</span></label>
+                        <select name="guests" id="guests">
+                            <option>Select a number of guests...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10+">10+</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="date">Date<span>*</span></label>
+                        <input type="date" id="date" name="date" placeholder="yyyy-mm-dd" />
+                    </p>
+                    <p>
+                        <label for="time">Time <span>*</span></label>
+                        <select name="time" id="time">
+                            <option>Select a time...</option>
+                            <option value="6:00 pm">6:00 pm</option>
+                            <option value="6:30 pm">6:30 pm</option>
+                            <option value="7:00 pm">7:00 pm</option>
+                            <option value="7:30 pm">7:30 pm</option>
+                            <option value="8:00 pm">8:00 pm</option>
+                            <option value="8:30 pm">8:30 pm</option>
+                            <option value="9:00 pm">9:00 pm</option>
+                            <option value="9:30 pm">9:30 pm</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="phone">Phone<span>*</span></label>
+                        <input type="text" id="phone" name="phone" placeholder="(123) 456-7890" />
+                    </p>
+                    <p>
+                        <label for="requests">Special Requests</label>
+                        <textarea name="requests" id="requests" rows="4"></textarea>
+                    </p>
+                    <p>
+                        <button class="formSubmit reveal" data-target=".modal" id="rest3Submit" type="reset">Submit</button>
+                    </p>
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Thank you for your reservation</p>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--Crispy footer -->
+        <footer>
+            <div class="homeIcon icon" data-section=".home">
+                <img src="img/home.svg" alt="Home" />
+            </div>
+            <div class="menuIcon icon" data-section=".menu">
+                <img src="img/menu.svg" alt="Home" />
+            </div>
+            <div class="specialsIcon icon" data-section=".specials">
+                <img src="img/specials.svg" alt="Specials" />
+            </div>
+            <div class="reservationsIcon icon" data-section=".reservations">
+                <img src="img/calendar.svg" alt="Reservations" />
+            </div>
+        </footer>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

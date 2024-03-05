@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:2.4738;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:2.3962;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.5709;stroke-miterlimit:10;}
+</style>
+<g id="calander">
+	<path class="st0" d="M77.59,90.59H21.81c-5.72,0-10.41-4.68-10.41-10.41V21.49c0-5.72,4.68-10.41,10.41-10.41h55.79
+		c5.72,0,10.41,4.68,10.41,10.41v58.69C88,85.91,83.32,90.59,77.59,90.59z"/>
+	<path class="st1" d="M87.59,32.42H11.5c0,0-0.6-12.04,3.22-17.88s67.41-3.36,69.65,0S87.59,32.42,87.59,32.42z"/>
+	<rect x="52.61" y="40.05" class="st2" width="11.17" height="11.56"/>
+	<rect x="52.6" y="56.13" class="st2" width="11.17" height="11.56"/>
+	<rect x="52.76" y="71.77" class="st2" width="11.17" height="11.56"/>
+	<rect x="36.15" y="56.11" class="st2" width="11.17" height="11.56"/>
+	<rect x="36.29" y="71.68" class="st2" width="11.17" height="11.56"/>
+	<rect x="19.64" y="71.62" class="st2" width="11.17" height="11.56"/>
+	<rect x="19.56" y="56.05" class="st2" width="11.17" height="11.56"/>
+	<rect x="68.7" y="40.05" class="st2" width="11.17" height="11.56"/>
+	<rect x="68.51" y="56.13" class="st2" width="11.17" height="11.56"/>
+	<rect x="68.69" y="71.63" class="st2" width="11.17" height="11.56"/>
+</g>
+</svg>

@@ -1,0 +1,1113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 375px;
+    height: 667px;
+    overflow: hidden;
+}
+
+main {
+    position: absolute;
+    width: 375px;
+    height: 667px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+section {
+    position: absolute;
+    top: 85px;
+    width: 375px;
+    height: 547px;
+    overflow: scroll;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+/* p{
+    font-size: 12px;
+} */
+.specials h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.specials p {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.reservations .sectionContainer {
+    border-top: none;
+    text-align: left;
+    padding: 10px;
+    padding-top: 0;
+}
+
+input,
+select,
+textarea {
+    padding: 5px;
+    border: solid 1px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 1px;
+    color: #666;
+}
+
+.menuImage {
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.menuIcon:hover {
+    cursor: pointer;
+}
+
+.specialsIcon:hover {
+    cursor: pointer;
+}
+
+.homeIcon:hover {
+    cursor: pointer;
+}
+
+.reservationsIcon:hover {
+    cursor: pointer;
+}
+
+/* **************************   Menu ******************************/
+#menu {
+    font-family: "AppFont", sans-serif;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e7ecdf' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    padding-top: 80px;
+}
+
+#menu header {
+    padding: 15px;
+    font-size: 55px;
+    line-height: 100%;
+    margin: 0px 0px 90px 45px;
+    width: 200px;
+    text-align: center;
+}
+
+#menu img {
+    /* display: none; */
+    width: 300px;
+    margin: -30px 0px 20px 0px;
+    ;
+}
+
+.menuBtn {
+    border-right: solid 3px #dae1cf;
+    border-bottom: solid 3px #dae1cf;
+    border-left: solid 3px #f2f4ec;
+    border-top: solid 3px #f2f4ec;
+    background-color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin: 15px;
+    width: 276px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.menuBtn:hover {
+    cursor: pointer;
+}
+
+#contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/************************ Splash *********************************/
+#splash {
+    width: 375px;
+    height: 667px;
+    background-color: #799850;
+    padding-right: 0px;
+}
+
+#splash img {
+    width: 100wv;
+    margin-top: 37%
+}
+
+/******************************** landing ***************************/
+#landing {
+    width: 375px;
+    height: 667px;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e7ecdf' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#landing footer {
+    background-color: #799850;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    width: 375px;
+}
+
+footer img {
+    height: 15px;
+}
+
+#landing header {
+    background-color: #799850;
+    color: #ffffff;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cevicheLogo {
+    margin-top: 23px;
+    margin-left: 40px;
+    width: 300px;
+    cursor: pointer;
+}
+
+#tavolaLogo {
+    margin-left: 40px;
+    width: 300px;
+    /* margin-top: 50px; */
+    cursor: pointer;
+}
+
+#crispyLogo {
+    /* margin-left: 40px; */
+    width: 300px;
+    /* margin-top: 61px;
+    margin-bottom: 70px; */
+    margin: 61px 0px 95px 33px;
+    cursor: pointer;
+}
+
+/***********************************    Ceviche    ********************************/
+
+/* Ceviche General */
+#rest1 {
+    background-image: url(../img/cevicheBackground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 667px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#rest1 header {
+    background-color: #464646;
+    height: 60px;
+    width: 375px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 55px;
+}
+
+#rest1 header img {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.rest1Body {
+    background-color: rgba(235, 235, 235, 0.7);
+    padding: 5px;
+    width: 340px;
+    margin-left: 15px;
+    height: 510px;
+    margin-top: -13px;
+}
+
+#rest1 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end;
+    background-color: #464646;
+    width: 375px;
+    padding: 0;
+    margin-top: 540px;
+}
+
+#rest1 footer img {
+    position: relative;
+    width: 40px;
+    height: 63px;
+}
+
+.icon {
+    padding-left: 5px;
+    width: 50px;
+}
+
+/* Ceviche Landing Page */
+#rest1 .logo {
+    /* padding-top: 40px; */
+    padding-bottom: 40px;
+    width: 335px;
+}
+
+#rest1 .menuButton {
+    grid-column: 2/3;
+    background-color: #464646;
+    color: #ffffff;
+    /* height: 40px; */
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#rest1 .specialsButton {
+    grid-column: 2/3;
+    background-color: #464646;
+    color: #ffffff;
+    height: 40px;
+    margin: 25px 15px 25px 15px;
+    ;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#rest1 .reservationsButton {
+    grid-column: 2/3;
+    background-color: #464646;
+    color: #ffffff;
+    height: 40px;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#cevicheBio {
+    background-color: #a1a1a1;
+    /* background-image: url(../img/cevicheRW.jpg); */
+    border: double #464646;
+    ;
+    color: white;
+    padding: 10px;
+
+}
+
+#cevicheBio p {
+    font-size: 15px;
+    /* text-align: justify; */
+    font-weight: 900;
+    /* text-justify: auto; */
+    /* justify-content: center; */
+    
+}
+
+/* Ceviche Menu */
+
+#cevicheMenu h3 {
+    margin-top: 15px;
+}
+
+#cevicheMenu {
+    padding-left: 10px;
+}
+#cevicheMenu p{
+    font-size: 12px;
+}
+#rest1Menu {
+    background-color: #a1a1a1;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 27px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Ceviche Specials */
+#cevicheSpecials h2 {
+    font-size: 18px;
+}
+
+#rest1Specials {
+    background-color: #a1a1a1;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#cevicheSpecial1 {
+    background-image: url(../img/raguBackground.png);
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 13px;
+    height: 135px;
+}
+
+#cevicheSpecial2 {
+    background-image: url(../img/duckBackground.png);
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 10px;
+    width: 310px;
+    height: 135px;
+}
+
+#cevicheSpecial3 {
+    background-image: url(../img/appleBackground.png);
+    width: 310px;
+    height: 135px;
+    margin-left: 10px;
+}
+
+/* Ceviche reservations */
+#rest1Reservations {
+    background-color: #a1a1a1;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* font size for  box titles*/
+#rest1 label {
+    font-size: 13px;
+}
+
+/* to change the boarder when a section is clicked on */
+#rest1 input[type=text]:focus {
+    outline: none;
+    border: 2px solid #464646;
+}
+
+#rest1 select:focus {
+    outline: none;
+    border: 2px solid #464646;
+}
+
+#rest1 input[type=date]:focus {
+    outline: none;
+    border: 2px solid #464646;
+}
+
+#rest1 input[type=text]:focus {
+    outline: none;
+    border: 2px solid #464646;
+}
+
+#rest1 textarea:focus {
+    outline: none;
+    border: 2px solid #464646;
+}
+
+#rest1 select {
+    height: 30px;
+}
+
+/* to control spacing of entry fields */
+#rest1 input {
+    margin-bottom: 8px;
+}
+
+#rest1 select {
+    margin-bottom: 8px;
+}
+
+/* submit button styling*/
+#rest1 button {
+    margin-top: 10px;
+    border-color: #a1a1a1 !important;
+    color: #000000;
+    background: #a1a1a1;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    margin-left: 75px;
+    font-size: 18px;
+}
+
+#myBtn {
+    margin-top: 10px;
+    border-color: #a1a1a1 !important;
+    color: #000000;
+    background: #a1a1a1;
+    width: 260px;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+/* submit button hover styling */
+#rest1Submit:hover {
+    border-color: #464646 !important;
+    color: #464646;
+    background: #fff;
+}
+
+/***********************************     Tavola    ********************************/
+/* Tavola General */
+#rest2 {
+    background-image: url(../img/tavolaBackground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 666px;
+    font-family: poynter-oldstyle-display, serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#rest2 header {
+    background-color: #3f6c05;
+    color: #ffffff;
+    text-align: center;
+    height: 60px;
+    width: 376px;
+    font-size: 55px;
+}
+
+#rest2 header img {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.rest2Body {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 5px;
+    width: 340px;
+    margin-left: 15px;
+    height: 510px;
+    margin-top: -13px;
+}
+
+#rest2 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #3f6c05;
+    margin-top: 539px;
+}
+
+#rest2 footer img {
+    position: relative;
+    width: 40px;
+    height: 63px;
+}
+
+/* Tavola Landing Page */
+/* maybe causing glitch/lag */
+#rest2 h2 {
+    letter-spacing: 1px;
+}
+
+#rest2 .logo {
+    /* padding-bottom: 40px; */
+    width: 309px;
+    margin-top: -35px;
+}
+#tavolaBio {
+    background-color: #a59f8b;
+    ;
+    color: #1C4220;
+    /* margin: 15px; */
+    /* text-align: justify; */
+    /* text-justify: auto; */
+    font-size: 14px;
+    padding: 10px;
+    line-height: 1.5;
+    cursor: pointer;
+    font-weight: 800;
+    border: double #537c1f;
+    width: 335px;
+}
+
+/* Tavola Menu */
+#rest2Menu {
+    background-color: #537c1f;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 27px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#tavolaMenu h3 {
+    margin-top: 5px;
+}
+
+#tavolaMenu {
+    padding-left: 15px;
+}
+
+/* Tavola Specials  */
+#rest2Specials {
+    background-color: #537c1f;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 27px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#tavolaSpecial1 {
+    background-image: url(../img/burrataBackground.png);
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 13px;
+    height: 135px;
+}
+
+#tavolaSpecial2 {
+    background-image: url(../img/aranceBackground.png);
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 10px;
+    width: 310px;
+    height: 135px;
+}
+
+#tavolaSpecial3 {
+    background-image: url(../img/zamBackground.png);
+    width: 310px;
+    height: 135px;
+    margin-left: 10px;
+}
+
+/* Tavola Reservations */
+#rest2Reservations {
+    background-color: #537c1f;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* font size for  box titles*/
+#rest2 label {
+    font-size: 13px;
+}
+
+/* to change the boarder when a section is clicked on */
+
+#rest2 input[type=text]:focus {
+    outline: none;
+    border: 2px solid #799850;
+}
+
+#rest2 select:focus {
+    outline: none;
+    border: 2px solid #799850;
+}
+
+#rest2 input[type=date]:focus {
+    outline: none;
+    border: 2px solid #799850;
+}
+
+#rest2 input[type=text]:focus {
+    outline: none;
+    border: 2px solid #799850;
+}
+
+#rest2 textarea:focus {
+    outline: none;
+    border: 2px solid #799850;
+}
+
+#rest2 select {
+    border-radius: 0%;
+    height: 30px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+/* to control spacing of entry fields */
+#rest2 input {
+    margin-bottom: 8px;
+}
+
+#rest2 select {
+    margin-bottom: 8px;
+}
+
+#rest2Submit {
+    margin-top: 20px;
+    /* width: 250px; */
+    border-color: #537c1f !important;
+    color: #fff;
+    background: #537c1f;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    margin-left: 75px;
+    font-size: 18px;
+}
+
+/***********************************    Crispys    ********************************/
+
+/* Crispys Basic */
+#rest3 {
+    background-image: url(../img/crispyBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 667px;
+    font-family: Arial;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#rest3 header {
+    background-color: #4b63a8;
+    color: #ffffff;
+    height: 60px;
+    width: 375px;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 50px;
+}
+
+#rest3 header img {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    margin-top: -42px;
+    margin-left: -170px;
+}
+
+.rest3Body {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    width: 340px;
+    margin-left: 15px;
+    margin-top: -13px;
+    height: 510px;
+}
+
+#rest3 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #4b63a8;
+    width: 375px;
+    padding: 0;
+    margin-top: 540px;
+}
+
+#rest3 footer img {
+    position: relative;
+    width: 40px;
+    height: 63px;
+}
+
+/* Crispy Landing Page */
+#rest3 .logo {
+    /* padding-top: 30px; */
+    padding-bottom: 40px;
+}
+
+#crispyBio {
+    background-color: #4b63a8;
+    color: white;
+    padding: 10px;
+    /* text-align: justify; */
+    /* text-justify: auto; */
+    line-height: 1.5;
+    border: double #f4c47d;
+}
+
+/* Crispy Menu */
+
+#crispyMenu h1 {
+    background-color: #4b63a8;
+    width: 250px;
+    margin-top: 15px;
+    margin-left: 27px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+#meal {
+    text-align: center;
+}
+
+#crispyMenu h2 {
+    padding-top: 15px;
+}
+
+#crispyMenu img {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+#crispyMenu {
+    padding-left: 15px;
+}
+
+#crispyMenu p {
+    padding: 1.5px;
+    font-size: 12px;
+}
+
+#rest3Specials {
+    background-color: #4b63a8;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 27px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Crispy Specials */
+#crispySpecial1 {
+    background-image: url(../img/phillyBackground.png);
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 13px;
+    height: 135px;
+}
+
+#crispySpecial2 {
+    background-image: url(../img/baconBackground.png);
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 10px;
+    width: 310px;
+    height: 135px;
+}
+
+#crispySpecial3 {
+    background-image: url(../img/monteBackground.png);
+    width: 310px;
+    height: 135px;
+    margin-left: 10px;
+}
+
+/* Crispy Reservations */
+#rest3Reservations {
+    background-color: #4b63a8;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* font size for  box titles*/
+#rest3 label {
+    font-size: 13px;
+}
+
+/* to change the boarder when a section is clicked on */
+#rest3 input[type=text]:focus {
+    outline: none;
+    border: 2px solid #4b63a8;
+}
+
+#rest3 select:focus {
+    outline: none;
+    border: 2px solid #4b63a8;
+}
+
+#rest3 input[type=date]:focus {
+    outline: none;
+    border: 2px solid #4b63a8;
+}
+
+#rest3 input[type=text]:focus {
+    outline: none;
+    border: 2px solid #4b63a8;
+}
+
+#rest3 textarea:focus {
+    outline: none;
+    border: 2px solid #4b63a8;
+}
+
+#rest3 select {
+    border-radius: 0%;
+    height: 30px;
+    margin-bottom: 8px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+
+#rest3 input {
+    margin-bottom: 8px;
+}
+
+#rest3Submit {
+    border-color: #fff !important;
+    color: #fff;
+    background: #4b63a8;
+    margin-top: 25px;
+    /* width: 250px; */
+    margin-left: 75px;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#rest3Submit:hover {
+    border-color: #464646 !important;
+    color: #4b63a8;
+    background: #fff;
+}
+
+.reserve {
+    border-color: #fff !important;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#rest3 .reservations .sectionContainer {
+    color: #4b63a8;
+}
+
+#rest3 .reservations h2 {
+    border-bottom: solid 1px #000000;
+}
+
+#rest3 input,
+#rest3 select,
+#rest3 textarea {
+    border-color: #4b63a8;
+    border-bottom: solid 1px #000000;
+}
+
+#rest3 input:focus,
+#rest3 select:focus,
+#rest3 textarea:focus {
+    outline: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#aboutPage {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e7ecdf' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#aboutPage header {
+    background-color: #799850;
+    color: #ffffff;
+    height: 60px;
+    width: 375px;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 50px;
+}
+
+#aboutPage header img {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    margin-top: -42px;
+    margin-left: -170px;
+}
+
+#aboutPage footer {
+    background-color: #799850;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    width: 375px;
+    margin-top: 27px;
+}
+
+#aboutPage h1 {
+    color: #3f6c05;
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+    ;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+#aboutPage p {
+    background-color: #ffffff;
+    width: 350px;
+    margin-left: 12px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+    border-right: solid 3px #dae1cf;
+    border-bottom: solid 3px #dae1cf;
+    border-left: solid 3px #f2f4ec;
+    border-top: solid 3px #f2f4ec;
+}
+#aboutLogo{
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin: 30px 0px 0px 68px;
+}
+#contactPage header {
+    background-color: #799850;
+    color: #ffffff;
+    height: 60px;
+    width: 375px;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 50px;
+}
+#contactLogo{
+    width: 250px;
+    align-self: center;
+}
+#contactPage header img {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    margin-top: -42px;
+    margin-left: -170px;
+}
+
+#contactPage footer {
+    background-color: #799850;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    width: 375px;
+    margin-top: 125px;
+}
+
+#contactPage {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e7ecdf' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    text-align: center;
+}
+
+#contactPage h1 {
+    color: #3f6c05;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#contactPage table {
+    background-color: #ffffff;
+    width: 360px;
+    height: 250px;
+    margin-left: 7.5px;
+    margin-bottom: -55px;
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+    /* line-height: 30px; */
+    border-right: solid 3px #dae1cf;
+    border-bottom: solid 3px #dae1cf;
+    border-left: solid 3px #f2f4ec;
+    border-top: solid 3px #f2f4ec;
+}
+th{
+    font-size: 14px;
+    text-align: center;
+}
+tr {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: rgba(121, 152, 80, .36);
+}
